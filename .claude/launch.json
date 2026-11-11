@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web-preview-prod",
+      "runtimeExecutable": "flutter",
+      "runtimeArgs": ["run", "-d", "web-server", "--web-port", "8123", "--web-hostname", "localhost", "--dart-define=API_BASE_URL=http://13.236.171.107"],
+      "port": 8123
+    }
+  ]
+}
